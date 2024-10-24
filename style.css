@@ -1,0 +1,103 @@
+body {
+    font-family: "League Spartan";
+    font-size: 15px;
+    background-color: hsl(300, 24%, 96%);
+    color: hsl(300, 76%, 11%);
+}
+  
+.container {
+    padding: 40px;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: auto auto;
+    gap: 2rem;
+}
+  
+.header {
+    text-align: start;
+}
+  
+.header h1 {
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    grid-template-columns: 1fr;
+}
+  
+.header p {
+    font-size: 1rem;
+    color: hsl(300, 2%, 34%);
+}
+  
+.main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    
+    
+}
+.colort{
+    color: white;
+}
+.colorts{
+    color: palevioletred;
+}
+.first, .second, .third {
+    background-color: hsl(0, 0%, 100%);
+    padding: 1rem;
+    text-align: center;
+    border-radius: 10px;
+    grid-auto-rows: 1px solid black;
+    width: 500px;
+    height: 40px;
+}
+  
+.first h4, .second h4, .third h4 {
+    margin-top: 0.5rem;
+    color: hsl(300, 43%, 22%);
+    font-weight: 500;
+}
+  
+.footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    width: 1050px;
+}
+  
+.footer div {
+    background-color: hsl(284, 46%, 18%);
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+  
+.footer div h5 {
+    margin-top: 0.5rem;
+    font-weight: 700;
+}
+  
+.footer div p {
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: white;
+}
+  
+img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+  
+.attribution {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 0.75rem;
+    color:hsl(303, 10%, 53%);
+}
